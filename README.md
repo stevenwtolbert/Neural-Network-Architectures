@@ -2,4 +2,5 @@
 Repository containing implementations of various neural network architectures
 
 Currently implemented: 
-  AlexNet
+
+(1) AlexNet
