@@ -1,5 +1,4 @@
 import tensorflow as tf
-from tensorflow.keras import Model
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.losses import categorical_crossentropy
 from tensorflow.keras.layers import Dense, Flatten, Conv2D, MaxPooling2D, Dropout, BatchNormalization
