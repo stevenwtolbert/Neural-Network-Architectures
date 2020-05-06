@@ -1,3 +1,9 @@
+import tensorflow as tf
+from tensorflow.keras import Model
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.losses import categorical_crossentropy
+from tensorflow.keras.layers import Dense, Flatten, Conv2D, MaxPooling2D, Dropout, BatchNormalization
+
 class AlexNet(Sequential):
     def __init__(self, input_shape,num_classes):
         super().__init__()
